@@ -13,7 +13,7 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedOriginPatterns("*") // Permite cualquier origen
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH") // Métodos HTTP permitidos
                 .allowedHeaders("*") // Permite cualquier header
-                .allowCredentials(true) // Permite credenciales
+                .allowCredentials(false) // Desactiva credenciales para permitir *
                 .maxAge(3600); // Tiempo máximo de caché de la configuración en segundos
     }
 }
