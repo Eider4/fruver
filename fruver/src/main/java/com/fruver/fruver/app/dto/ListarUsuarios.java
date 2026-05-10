@@ -9,5 +9,5 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 public class ListarUsuarios {
-    private List<UsuarioDTO> empleados;
+    private List<UsuarioDTO> empleados;  
 }
